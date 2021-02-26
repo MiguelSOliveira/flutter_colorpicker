@@ -216,7 +216,7 @@ class _MaterialPickerState extends State<MaterialPicker> {
                         ? Align(
                             alignment: Alignment.centerRight,
                             child: Text(
-                              'Example Text',
+                              'Example Text  ',
                               style: TextStyle(
                                 color: useWhiteForeground(_color)
                                     ? Colors.white
