@@ -216,13 +216,7 @@ class _MaterialPickerState extends State<MaterialPicker> {
                         ? Align(
                             alignment: Alignment.centerRight,
                             child: Text(
-                              '#' +
-                                  (_color
-                                          .toString()
-                                          .replaceFirst('Color(0xff', '')
-                                          .replaceFirst(')', ''))
-                                      .toUpperCase() +
-                                  '  ',
+                              'Example Text',
                               style: TextStyle(
                                 color: useWhiteForeground(_color)
                                     ? Colors.white
